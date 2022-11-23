@@ -37,7 +37,7 @@ input.addEventListener("keydown", (event) => {
     p.style.color = "gray";
     p.style.top = "-5px";
     p.style.left = "10px";
-    p.innerHTML = ":from";
+    p.innerHTML = "from:";
     input.style.paddingLeft = "50px";
     input.parentElement.appendChild(p);
   }
